@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("Images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70vh;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.amg {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.amg2 {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+.amg3 {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(40, 37, 37);
+    
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 520;
+    background-color: rgb(28, 25, 25);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red {
+    padding: 3px 24px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    border-color: red;
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+}
+.main input
+{
+    padding: 3px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.2);
+    color: white;
+}
+.first
+{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    height: 50vh;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg
+{
+    position: relative;
+
+}
+.secImg img
+{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}  
+.secImg video
+{
+    position: absolute;
+    width: 363px;
+    height: 211px;
+    top: 68.5px;
+    right: 61px;
+}
+section.first > div
+{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1)
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+section.first > div :nth-child(2)
+{
+    font-size: 15px;
+    font-weight: 300;
+}
+.faq
+{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+.faq h2
+{
+    text-align: center;
+    font-size: 48px;
+}
+.faqbox:hover
+{
+    background-color: #414141;
+    
+}
+.faqbox
+{
+    transition: all 0.5s ease-out;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(29, 27, 27);
+    padding: 15px;
+    max-width: 70vw;
+    margin: 13px auto;
+    cursor: pointer;
+    font-size: 24px;
+
+
+}
+.faqbox svg
+{
+    filter: invert(1);
+}
+footer
+{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+   
+}
+.footer-item
+{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.questions
+{
+    padding: 34px 0px;
+}
+.rt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rt input
+{
+    background-color: black;
+    padding: 7px;
+    color: white;
+    margin-right: 10px;
+    border: 1px solid silver;
+    border-radius: 2px;
+}
+.rty
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    font-size: 12px;
+}
